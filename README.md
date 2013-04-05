@@ -2,7 +2,7 @@
 
 Given a 32-bit integer, the encoder returns a 22-character URL-safe string that encrypts the integer within, which can be safely passed around in public without anybody knowing what the number is. The decoder returns the original integer given the encoded value.
 
-A secret key is used, must be kept safe for the encrypted value to be safe, and the same one must be used by the encoder and decoder to function properly.
+A secret key is used, must be kept safe for the encrypted value to be secure, and the same key must be used by the encoder and decoder to function properly.
 
 Requirements:
 * Python hashlib and base64 (both part of standard lib)
